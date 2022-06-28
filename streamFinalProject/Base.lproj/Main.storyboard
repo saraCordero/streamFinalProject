@@ -171,7 +171,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o62-YO-EDE">
-                                <rect key="frame" x="153" y="577" width="81" height="31"/>
+                                <rect key="frame" x="146" y="577" width="81" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Pack"/>
@@ -701,11 +701,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fdZ-e2-QeF"/>
-        <segue reference="7W2-vT-PP7"/>
-        <segue reference="sT7-Il-n44"/>
+        <segue reference="ksk-Iw-3Pe"/>
+        <segue reference="syC-2g-Snn"/>
         <segue reference="OtD-Ta-mZ8"/>
-        <segue reference="7xK-Ra-dur"/>
+        <segue reference="j56-Kk-YZy"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="dark beige go back icon" width="439" height="568"/>
