@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDF0D983286CD3F6006E0E12 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0D982286CD3F6006E0E12 /* MapViewController.swift */; };
+		BDF0D985286CD461006E0E12 /* AirportOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0D984286CD461006E0E12 /* AirportOneViewController.swift */; };
+		BDF0D987286CD471006E0E12 /* AirportTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0D986286CD471006E0E12 /* AirportTwoViewController.swift */; };
+		BDF0D989286CD494006E0E12 /* AirportThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0D988286CD494006E0E12 /* AirportThreeViewController.swift */; };
+		BDF0D98B286CD4D4006E0E12 /* AirportFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0D98A286CD4D4006E0E12 /* AirportFourViewController.swift */; };
+		BDF0D98D286CD4F2006E0E12 /* AirportFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0D98C286CD4F2006E0E12 /* AirportFiveViewController.swift */; };
+		BDF0D98F286CD50B006E0E12 /* PackingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0D98E286CD50B006E0E12 /* PackingListViewController.swift */; };
+		BDF0D991286CD52A006E0E12 /* CustomQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0D990286CD52A006E0E12 /* CustomQuizViewController.swift */; };
+		BDF0D993286CD543006E0E12 /* RestrictionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0D992286CD543006E0E12 /* RestrictionsViewController.swift */; };
+		BDF0D995286CD569006E0E12 /* CovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0D994286CD569006E0E12 /* CovidViewController.swift */; };
 		BDF3549C286B8EE60084BE4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3549B286B8EE60084BE4F /* AppDelegate.swift */; };
 		BDF3549E286B8EE60084BE4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3549D286B8EE60084BE4F /* SceneDelegate.swift */; };
 		BDF354A0286B8EE60084BE4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3549F286B8EE60084BE4F /* ViewController.swift */; };
@@ -17,6 +27,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDF0D982286CD3F6006E0E12 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BDF0D984286CD461006E0E12 /* AirportOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportOneViewController.swift; sourceTree = "<group>"; };
+		BDF0D986286CD471006E0E12 /* AirportTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTwoViewController.swift; sourceTree = "<group>"; };
+		BDF0D988286CD494006E0E12 /* AirportThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportThreeViewController.swift; sourceTree = "<group>"; };
+		BDF0D98A286CD4D4006E0E12 /* AirportFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportFourViewController.swift; sourceTree = "<group>"; };
+		BDF0D98C286CD4F2006E0E12 /* AirportFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportFiveViewController.swift; sourceTree = "<group>"; };
+		BDF0D98E286CD50B006E0E12 /* PackingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingListViewController.swift; sourceTree = "<group>"; };
+		BDF0D990286CD52A006E0E12 /* CustomQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomQuizViewController.swift; sourceTree = "<group>"; };
+		BDF0D992286CD543006E0E12 /* RestrictionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictionsViewController.swift; sourceTree = "<group>"; };
+		BDF0D994286CD569006E0E12 /* CovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidViewController.swift; sourceTree = "<group>"; };
 		BDF35498286B8EE60084BE4F /* streamFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streamFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF3549B286B8EE60084BE4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDF3549D286B8EE60084BE4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +62,16 @@
 		BDF3548F286B8EE60084BE4F = {
 			isa = PBXGroup;
 			children = (
+				BDF0D994286CD569006E0E12 /* CovidViewController.swift */,
+				BDF0D992286CD543006E0E12 /* RestrictionsViewController.swift */,
+				BDF0D990286CD52A006E0E12 /* CustomQuizViewController.swift */,
+				BDF0D98E286CD50B006E0E12 /* PackingListViewController.swift */,
+				BDF0D98C286CD4F2006E0E12 /* AirportFiveViewController.swift */,
+				BDF0D98A286CD4D4006E0E12 /* AirportFourViewController.swift */,
+				BDF0D988286CD494006E0E12 /* AirportThreeViewController.swift */,
+				BDF0D986286CD471006E0E12 /* AirportTwoViewController.swift */,
+				BDF0D984286CD461006E0E12 /* AirportOneViewController.swift */,
+				BDF0D982286CD3F6006E0E12 /* MapViewController.swift */,
 				BDF3549A286B8EE60084BE4F /* streamFinalProject */,
 				BDF35499286B8EE60084BE4F /* Products */,
 			);
@@ -141,10 +171,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF0D991286CD52A006E0E12 /* CustomQuizViewController.swift in Sources */,
+				BDF0D98D286CD4F2006E0E12 /* AirportFiveViewController.swift in Sources */,
+				BDF0D995286CD569006E0E12 /* CovidViewController.swift in Sources */,
 				BDF354A6286B8EE60084BE4F /* streamFinalProject.xcdatamodeld in Sources */,
 				BDF354A0286B8EE60084BE4F /* ViewController.swift in Sources */,
+				BDF0D98F286CD50B006E0E12 /* PackingListViewController.swift in Sources */,
 				BDF3549C286B8EE60084BE4F /* AppDelegate.swift in Sources */,
+				BDF0D98B286CD4D4006E0E12 /* AirportFourViewController.swift in Sources */,
+				BDF0D983286CD3F6006E0E12 /* MapViewController.swift in Sources */,
 				BDF3549E286B8EE60084BE4F /* SceneDelegate.swift in Sources */,
+				BDF0D987286CD471006E0E12 /* AirportTwoViewController.swift in Sources */,
+				BDF0D989286CD494006E0E12 /* AirportThreeViewController.swift in Sources */,
+				BDF0D985286CD461006E0E12 /* AirportOneViewController.swift in Sources */,
+				BDF0D993286CD543006E0E12 /* RestrictionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
