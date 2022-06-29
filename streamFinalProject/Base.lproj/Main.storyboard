@@ -179,14 +179,6 @@
                                     <segue destination="feF-15-dDx" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="j56-Kk-YZy"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="go back arrow icon" translatesAutoresizingMaskIntoConstraints="NO" id="HJr-yc-SH9">
-                                <rect key="frame" x="20" y="49" width="81" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="house icon" translatesAutoresizingMaskIntoConstraints="NO" id="FyB-Sg-kz0">
-                                <rect key="frame" x="332" y="49" width="62" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -235,7 +227,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="   "/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="6yK-hE-VJN"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="ioW-mc-OBb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghM-7d-lW7">
@@ -244,7 +236,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="   "/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="coverVertical" id="fl3-wo-1UF"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="K7w-YN-1mL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -356,15 +348,29 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="0dS-Eu-BMI">
-                                <rect key="frame" x="1" y="87" width="537" height="742"/>
+                                <rect key="frame" x="1" y="86" width="537" height="742"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dark beige house icon" translatesAutoresizingMaskIntoConstraints="NO" id="amb-1S-2k1">
-                                <rect key="frame" x="332" y="67" width="62" height="68"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cG2-W0-ylo">
+                                <rect key="frame" x="32" y="74" width="36" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="   "/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="ITF-xQ-t9P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LsR-IG-1cc">
+                                <rect key="frame" x="345" y="82" width="36" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="   "/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="gHd-wh-zGx"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dark beige go back icon" translatesAutoresizingMaskIntoConstraints="NO" id="JjN-fP-ICC">
-                                <rect key="frame" x="40" y="79" width="20" height="37"/>
+                                <rect key="frame" x="40" y="79" width="20" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map pin light blue" translatesAutoresizingMaskIntoConstraints="NO" id="zg2-Wq-JtT">
@@ -432,6 +438,10 @@
                                     <segue destination="LCg-Ac-9RI" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="WYa-bY-ZQE"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dark beige house icon" translatesAutoresizingMaskIntoConstraints="NO" id="amb-1S-2k1">
+                                <rect key="frame" x="332" y="74" width="62" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JIh-oY-qfy"/>
                         <color key="backgroundColor" red="0.91764705882352937" green="0.84313725490196079" blue="0.81568627450980391" alpha="1" colorSpace="calibratedRGB"/>
@@ -701,9 +711,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="3lL-R4-yVT"/>
         <segue reference="ksk-Iw-3Pe"/>
-        <segue reference="syC-2g-Snn"/>
-        <segue reference="OtD-Ta-mZ8"/>
+        <segue reference="sT7-Il-n44"/>
+        <segue reference="ioW-mc-OBb"/>
         <segue reference="j56-Kk-YZy"/>
     </inferredMetricsTieBreakers>
     <resources>
