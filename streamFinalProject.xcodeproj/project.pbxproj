@@ -62,16 +62,6 @@
 		BDF3548F286B8EE60084BE4F = {
 			isa = PBXGroup;
 			children = (
-				BDF0D994286CD569006E0E12 /* CovidViewController.swift */,
-				BDF0D992286CD543006E0E12 /* RestrictionsViewController.swift */,
-				BDF0D990286CD52A006E0E12 /* CustomQuizViewController.swift */,
-				BDF0D98E286CD50B006E0E12 /* PackingListViewController.swift */,
-				BDF0D98C286CD4F2006E0E12 /* AirportFiveViewController.swift */,
-				BDF0D98A286CD4D4006E0E12 /* AirportFourViewController.swift */,
-				BDF0D988286CD494006E0E12 /* AirportThreeViewController.swift */,
-				BDF0D986286CD471006E0E12 /* AirportTwoViewController.swift */,
-				BDF0D984286CD461006E0E12 /* AirportOneViewController.swift */,
-				BDF0D982286CD3F6006E0E12 /* MapViewController.swift */,
 				BDF3549A286B8EE60084BE4F /* streamFinalProject */,
 				BDF35499286B8EE60084BE4F /* Products */,
 			);
@@ -88,6 +78,16 @@
 		BDF3549A286B8EE60084BE4F /* streamFinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				BDF0D994286CD569006E0E12 /* CovidViewController.swift */,
+				BDF0D992286CD543006E0E12 /* RestrictionsViewController.swift */,
+				BDF0D990286CD52A006E0E12 /* CustomQuizViewController.swift */,
+				BDF0D98E286CD50B006E0E12 /* PackingListViewController.swift */,
+				BDF0D98C286CD4F2006E0E12 /* AirportFiveViewController.swift */,
+				BDF0D98A286CD4D4006E0E12 /* AirportFourViewController.swift */,
+				BDF0D988286CD494006E0E12 /* AirportThreeViewController.swift */,
+				BDF0D986286CD471006E0E12 /* AirportTwoViewController.swift */,
+				BDF0D984286CD461006E0E12 /* AirportOneViewController.swift */,
+				BDF0D982286CD3F6006E0E12 /* MapViewController.swift */,
 				BDF3549B286B8EE60084BE4F /* AppDelegate.swift */,
 				BDF3549D286B8EE60084BE4F /* SceneDelegate.swift */,
 				BDF3549F286B8EE60084BE4F /* ViewController.swift */,
@@ -331,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUB33CJ49Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = streamFinalProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -358,6 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUB33CJ49Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = streamFinalProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
