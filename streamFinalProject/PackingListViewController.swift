@@ -9,6 +9,9 @@ import UIKit
 
 class PackingListViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    
     @IBOutlet weak var label1: UILabel!
     
     @IBOutlet weak var label2: UILabel!
@@ -22,6 +25,7 @@ class PackingListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        titleLabel.text = ""
         label1.text = "Tap an icon to show item lists here. "
         label2.text = ""
         label3.text = ""
@@ -31,6 +35,7 @@ class PackingListViewController: UIViewController {
 
     
     @IBAction func clothingTapped(_ sender: Any) {
+        titleLabel.text = "Clothing Items"
         label1.text = "Some outfit sets"
         label2.text = "Shoes"
         label3.text = "Jacket"
@@ -40,6 +45,7 @@ class PackingListViewController: UIViewController {
     }
 
     @IBAction func toiletriesTapped(_ sender: Any) {
+        titleLabel.text = "Toiletries"
         label1.text = "Comb or brush"
         label2.text = "Hair products"
         label3.text = "Toothcare (brush, paste, floss)"
@@ -48,6 +54,7 @@ class PackingListViewController: UIViewController {
 
     }
     @IBAction func medicineTapped(_ sender: Any) {
+        titleLabel.text = "Medical Items"
         label1.text = "Allergy supplies"
         label2.text = "Prescriptions"
         label3.text = "Glasses or contact lenses"
@@ -57,6 +64,7 @@ class PackingListViewController: UIViewController {
     }
 
     @IBAction func miscellTapped(_ sender: Any) {
+        titleLabel.text = "Miscellaneous"
         label1.text = "Credit/debit card or cash"
         label2.text = "Phone/camera & chargers"
         label3.text = "Pillow/blanket"
@@ -66,6 +74,7 @@ class PackingListViewController: UIViewController {
     }
 
     @IBAction func documentsTapped(_ sender: Any) {
+        titleLabel.text = "Documents"
         label1.text = "Tickets"
         label2.text = "Hotel reservations"
         label3.text = "Passport"

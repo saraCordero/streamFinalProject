@@ -7,23 +7,40 @@
 
 import UIKit
 
-class AirportThreeViewController: UIViewController {
-
+class AirportThreeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    let heathrow = ["Road Map", "Terminal 2", "Terminal 3", "Terminal 4", "Terminal 5"]
+    
+    
+    @IBOutlet weak var label: UILabel!
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var imagePicker: UIPickerView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        imagePicker.delegate = self
+        imagePicker.dataSource = self
     }
     
 
-    /*
-    // MARK: - Navigation
+    
+func numberOfComponents(in pickerView: UIPickerView) -> Int {
+    return 1
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    return heathrow.count
+}
 
+func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+    return heathrow[row]
+}
+
+func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+    label.text = heathrow[row]
+    imageView.image = UIImage(named: heathrow[row] + " H")
+}
 }
