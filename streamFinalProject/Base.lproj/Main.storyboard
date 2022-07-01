@@ -612,6 +612,20 @@
                                 <nil key="highlightedColor"/>
                                 <string key="userLabel">Follow the 3-1-1 rule (Each liquid must be in a 3.4-ounce or less container ("3"), all containers must be placed inside one clear quart-sized plastic bag ("1"), and each passenger is only allowed one plastic bag ("1") It should also be placed in the front pocket of your carry-on for accessibility, and it must be placed in the bin once you get to the security lane. Pack large electronics on the top layer of your carry-on for screening accessibility. Solid food items are allowed (not liquids or gels).</string>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljb-KL-XU9">
+                                <rect key="frame" x="37" y="262" width="161" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.81892603635787964" green="0.61946612596511841" blue="0.52267903089523315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Carry On" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
+                                    <color key="baseForegroundColor" red="0.01176470588" green="0.20784313730000001" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.81892603635787964" green="0.61946612596511841" blue="0.52267903089523315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="carryOnTapped:" destination="ie7-Ko-Q9i" eventType="touchUpInside" id="DNP-Uh-5jH"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ooo-sk-9TI">
                                 <rect key="frame" x="215" y="262" width="161" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -627,27 +641,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rn-fk-eYS">
-                                <rect key="frame" x="58" y="375" width="318" height="385"/>
+                                <rect key="frame" x="48" y="363" width="318" height="385"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.81892603635787964" green="0.61946612596511841" blue="0.52267903089523315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
                                 <color key="textColor" red="0.01176470588" green="0.20784313730000001" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljb-KL-XU9">
-                                <rect key="frame" x="37" y="262" width="161" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.81892603635787964" green="0.61946612596511841" blue="0.52267903089523315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Carry On" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
-                                    <color key="baseForegroundColor" red="0.01176470588" green="0.20784313730000001" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" red="0.81892603635787964" green="0.61946612596511841" blue="0.52267903089523315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="carryOnTapped:" destination="ie7-Ko-Q9i" eventType="touchUpInside" id="DNP-Uh-5jH"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tX8-5M-sYp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1302,10 +1302,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="3lL-R4-yVT"/>
         <segue reference="ksk-Iw-3Pe"/>
         <segue reference="sT7-Il-n44"/>
         <segue reference="7xK-Ra-dur"/>
-        <segue reference="noR-C3-ynC"/>
+        <segue reference="K7w-YN-1mL"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="General Map A" width="332" height="332"/>
